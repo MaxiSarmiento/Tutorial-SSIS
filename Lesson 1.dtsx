@@ -5,21 +5,21 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="NOTEBOOKMAXI"
   DTS:CreatorName="NOTEBOOKMAXI\DSMaxi"
-  DTS:DTSID="{2B50A447-FC2D-47CB-828C-EAFFB23D2D25}"
+  DTS:DTSID="{F7A5AB46-B173-478F-B547-3B685323FCD3}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5228.0"
   DTS:LocaleID="11274"
-  DTS:ObjectName="Lesson 4"
+  DTS:ObjectName="Lesson 1"
   DTS:PackageType="5"
-  DTS:VersionBuild="25"
-  DTS:VersionGUID="{013D9DF2-4E0C-4449-8218-4C383E1DE2D3}">
+  DTS:VersionBuild="27"
+  DTS:VersionGUID="{CF795204-8EC0-4742-B66F-1663B5CDBFFD}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Error Data]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{148D793D-C2F5-4455-83A0-93BB41556E57}"
+      DTS:DTSID="{4F6BD25B-2E4E-42D3-B7F0-803663333528}"
       DTS:ObjectName="Error Data">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -37,7 +37,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="AverageRate"
-              DTS:DTSID="{8B52E69D-A55E-4040-A7BA-BFE42B9E639E}"
+              DTS:DTSID="{F8E4AE1A-7B02-4C73-84F5-92460F8C2F02}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -46,7 +46,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyID"
-              DTS:DTSID="{03213287-193D-4B78-B67E-7C94133CFE4A}"
+              DTS:DTSID="{B8B0CF8A-A561-46F8-A870-62D81CD4BE61}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -54,7 +54,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyDate"
-              DTS:DTSID="{8123348D-ABCA-420D-8D8C-44B37BA32370}"
+              DTS:DTSID="{D67AB6D0-E709-4FD6-A9CA-5AA3BB56EB95}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -62,7 +62,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="EndOfDayRate"
-              DTS:DTSID="{FC0CA097-3414-4333-9F46-A5B87B66C72D}"
+              DTS:DTSID="{1C479A86-5B8B-44CA-B6D1-F1A9D9AD5179}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -70,7 +70,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{A65C0034-9A72-4C0B-8BBC-89F9861E9F8C}"
+              DTS:DTSID="{6EDCC2B0-4408-438D-865A-5474E9D3C70F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -78,7 +78,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{653E7909-98E6-41DA-8ADF-7E7FE8E9F2AF}"
+              DTS:DTSID="{C03C7769-DA01-4B0C-ADAD-6186B60A71EB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -87,7 +87,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorDescription"
-              DTS:DTSID="{C5450888-BE77-41C4-99E4-1C5CE70BD070}"
+              DTS:DTSID="{C8B4A1EF-4B37-44A2-BFA1-F14C36DF58BD}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -96,7 +96,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Lesson 3 Texto]"
       DTS:CreationName="FILE"
-      DTS:DTSID="{403EC6F6-326E-4026-ADD0-3B787D933764}"
+      DTS:DTSID="{B68F7FC2-0A87-4A3C-87EE-8219D753D074}"
       DTS:ObjectName="Lesson 3 Texto">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -107,31 +107,31 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[localhost.AdventureWorks2014 1]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{CD12C1E0-69F0-4BCB-80D6-E633970DCF38}"
+      DTS:DTSID="{5A2C6493-FE9C-4869-8FAD-B6D8897DCC62}"
       DTS:ObjectName="localhost.AdventureWorks2014 1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorks2014;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Lesson 3-{CD12C1E0-69F0-4BCB-80D6-E633970DCF38}localhost.AdventureWorks2014 1;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorks2014;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Lesson 3-{5A2C6493-FE9C-4869-8FAD-B6D8897DCC62}localhost.AdventureWorks2014 1;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[localhost.AdventureWorksDW2014]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{C50D71ED-5C02-4ADD-97D4-DE696EEC7C66}"
+      DTS:DTSID="{BE228584-C63E-4379-B5C8-FEC47904F5D6}"
       DTS:ObjectName="localhost.AdventureWorksDW2014">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorksDW2014;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Lesson1-{C50D71ED-5C02-4ADD-97D4-DE696EEC7C66}localhost.AdventureWorksDW2014;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorksDW2014;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Lesson1-{BE228584-C63E-4379-B5C8-FEC47904F5D6}localhost.AdventureWorksDW2014;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Sample Flat File Source Data]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{219BA2DF-90DD-4EAD-BDBE-FAE20E0320E3}"
+      DTS:DTSID="{DE40D8F5-B6C6-415C-A251-C66AC404B8AA}"
       DTS:ObjectName="Sample Flat File Source Data">
       <DTS:PropertyExpression
         DTS:Name="ConnectionString">@[User::varFileName]</DTS:PropertyExpression>
@@ -150,7 +150,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="AverageRate"
-              DTS:DTSID="{623AF3E4-BA5C-4E26-A052-8F183423FA71}"
+              DTS:DTSID="{D225EA53-E70F-4189-8A2C-CB64EC0021D7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -159,7 +159,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyID"
-              DTS:DTSID="{1A8A7809-50AA-4A93-86EC-14CEE8A398B4}"
+              DTS:DTSID="{7F22B6D5-1A04-4A09-82E7-624E42068D91}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -167,7 +167,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyDate"
-              DTS:DTSID="{C0381598-8FF7-4554-A901-11B2852D22C9}"
+              DTS:DTSID="{8959A9D6-AE2B-4973-9603-470C65E0DEF7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -175,7 +175,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="EndOfDayRate"
-              DTS:DTSID="{4EB558EF-CB78-4899-8BDC-EAF9D0FE43F8}"
+              DTS:DTSID="{E1D4AB0F-C6C5-44CA-8B97-84DC54247B73}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -187,7 +187,7 @@
       DTS:ConfigString="Lesson 3 Texto"
       DTS:CreationName="Microsoft.LogProviderTextFile"
       DTS:Description="Writes log entries for events to a CSV file"
-      DTS:DTSID="{7654CFB6-B7DB-49C9-9D17-5E856ACDBF99}"
+      DTS:DTSID="{C353C077-787D-4F7F-B187-CF8CF8FC96F7}"
       DTS:ObjectName="Lesson 3 Log File">
       <DTS:ObjectData>
         <InnerObject />
@@ -197,7 +197,7 @@
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{D0A1F818-9D90-49E5-B72D-6F728F4FBFBF}"
+      DTS:DTSID="{112554AD-F36A-47B7-82BD-AFDF4CB7721A}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="ConnectionString">
@@ -206,7 +206,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{7C1DB45F-71F6-4806-8B88-8B91864386A8}"
+      DTS:DTSID="{083F76C1-0B04-489B-9D83-1F2023D359FD}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="varFileName">
@@ -216,7 +216,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{E5AFC119-831E-404B-9590-EB1A249AA135}"
+      DTS:DTSID="{02882014-62E8-428F-9829-B3F9233257C1}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="VarFolderName">
@@ -230,7 +230,7 @@
     DTS:LoggingMode="1">
     <DTS:SelectedLogProviders>
       <DTS:SelectedLogProvider
-        DTS:InstanceID="{7654CFB6-B7DB-49C9-9D17-5E856ACDBF99}" />
+        DTS:InstanceID="{C353C077-787D-4F7F-B187-CF8CF8FC96F7}" />
     </DTS:SelectedLogProviders>
   </DTS:LoggingOptions>
   <DTS:Executables>
@@ -238,14 +238,14 @@
       DTS:refId="Package\Foreach File in Folder"
       DTS:CreationName="STOCK:FOREACHLOOP"
       DTS:Description="coso"
-      DTS:DTSID="{4E943013-0400-414D-8793-586A9186CACE}"
+      DTS:DTSID="{3582E268-0230-4E49-A90D-BC5CC84865C1}"
       DTS:ExecutableType="STOCK:FOREACHLOOP"
       DTS:LocaleID="1033"
       DTS:ObjectName="Foreach File in Folder">
       <DTS:ForEachEnumerator
         DTS:CreationName="Microsoft.ForEachFileEnumerator"
-        DTS:DTSID="{6BF73EA1-8007-4CEC-8549-A8C0ACF881F6}"
-        DTS:ObjectName="{6BF73EA1-8007-4CEC-8549-A8C0ACF881F6}">
+        DTS:DTSID="{86B6D4CF-54F7-476D-8016-C11AAA194B11}"
+        DTS:ObjectName="{86B6D4CF-54F7-476D-8016-C11AAA194B11}">
         <DTS:ObjectData>
           <ForEachFileEnumeratorProperties>
             <FEFEProperty
@@ -267,7 +267,7 @@
           DTS:refId="Package\Foreach File in Folder\Extract Sample Currency Data"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Data Flow Task"
-          DTS:DTSID="{1FEF661C-2BAE-4311-A525-5E6FF1623B11}"
+          DTS:DTSID="{A8FF89D1-6FA3-4563-BF03-1BAD41AD9EDD}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="1033"
           DTS:ObjectName="Extract Sample Currency Data"
@@ -278,7 +278,7 @@
             DTS:LoggingMode="1">
             <DTS:SelectedLogProviders>
               <DTS:SelectedLogProvider
-                DTS:InstanceID="{7654CFB6-B7DB-49C9-9D17-5E856ACDBF99}" />
+                DTS:InstanceID="{C353C077-787D-4F7F-B187-CF8CF8FC96F7}" />
             </DTS:SelectedLogProviders>
           </DTS:LoggingOptions>
           <DTS:ObjectData>
@@ -449,1020 +449,6 @@
                   </outputs>
                 </component>
                 <component
-                  refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows"
-                  componentClassID="Microsoft.FlatFileDestination"
-                  contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-                  description="Flat File Destination"
-                  localeId="1033"
-                  name="FailedRows"
-                  version="1">
-                  <properties>
-                    <property
-                      dataType="System.Boolean"
-                      description="Specifies whether the data will overwrite or append to the destination file."
-                      name="Overwrite">false</property>
-                    <property
-                      dataType="System.Null"
-                      description="Specifies the text to write to the destination file before any data is written."
-                      expressionType="Notify"
-                      name="Header" />
-                    <property
-                      dataType="System.Boolean"
-                      description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
-                      name="EscapeQualifier">false</property>
-                  </properties>
-                  <connections>
-                    <connection
-                      refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Connections[FlatFileConnection]"
-                      connectionManagerID="Package.ConnectionManagers[Error Data]"
-                      connectionManagerRefId="Package.ConnectionManagers[Error Data]"
-                      name="FlatFileConnection" />
-                  </connections>
-                  <inputs>
-                    <input
-                      refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input]"
-                      hasSideEffects="true"
-                      name="Flat File Destination Input">
-                      <inputColumns>
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].Columns[AverageRate]"
-                          cachedDataType="r4"
-                          cachedName="AverageRate"
-                          externalMetadataColumnId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].ExternalColumns[AverageRate]"
-                          lineageId="Package\Foreach File in Folder\Extract Sample Currency Data\Extract Sample Currency Data.Outputs[Flat File Source Output].Columns[AverageRate]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].Columns[CurrencyID]"
-                          cachedDataType="wstr"
-                          cachedLength="50"
-                          cachedName="CurrencyID"
-                          externalMetadataColumnId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].ExternalColumns[CurrencyID]"
-                          lineageId="Package\Foreach File in Folder\Extract Sample Currency Data\Extract Sample Currency Data.Outputs[Flat File Source Output].Columns[CurrencyID]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].Columns[CurrencyDate]"
-                          cachedDataType="dbDate"
-                          cachedName="CurrencyDate"
-                          externalMetadataColumnId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].ExternalColumns[CurrencyDate]"
-                          lineageId="Package\Foreach File in Folder\Extract Sample Currency Data\Extract Sample Currency Data.Outputs[Flat File Source Output].Columns[CurrencyDate]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].Columns[EndOfDayRate]"
-                          cachedDataType="r4"
-                          cachedName="EndOfDayRate"
-                          externalMetadataColumnId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].ExternalColumns[EndOfDayRate]"
-                          lineageId="Package\Foreach File in Folder\Extract Sample Currency Data\Extract Sample Currency Data.Outputs[Flat File Source Output].Columns[EndOfDayRate]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].Columns[ErrorCode]"
-                          cachedDataType="i4"
-                          cachedName="ErrorCode"
-                          externalMetadataColumnId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].ExternalColumns[ErrorCode]"
-                          lineageId="Package\Foreach File in Folder\Extract Sample Currency Data\Lookup Currency Key.Outputs[Lookup Error Output].Columns[ErrorCode]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].Columns[ErrorColumn]"
-                          cachedDataType="i4"
-                          cachedName="ErrorColumn"
-                          externalMetadataColumnId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
-                          lineageId="Package\Foreach File in Folder\Extract Sample Currency Data\Lookup Currency Key.Outputs[Lookup Error Output].Columns[ErrorColumn]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].Columns[ErrorDescription]"
-                          cachedDataType="wstr"
-                          cachedLength="50"
-                          cachedName="ErrorDescription"
-                          externalMetadataColumnId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].ExternalColumns[ErrorDescription]"
-                          lineageId="Package\Foreach File in Folder\Extract Sample Currency Data\GetError Description.Outputs[Salida 0].Columns[ErrorDescription]" />
-                      </inputColumns>
-                      <externalMetadataColumns
-                        isUsed="True">
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].ExternalColumns[AverageRate]"
-                          dataType="r4"
-                          name="AverageRate" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].ExternalColumns[CurrencyID]"
-                          dataType="wstr"
-                          length="50"
-                          name="CurrencyID" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].ExternalColumns[CurrencyDate]"
-                          dataType="dbDate"
-                          name="CurrencyDate" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].ExternalColumns[EndOfDayRate]"
-                          dataType="r4"
-                          name="EndOfDayRate" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].ExternalColumns[ErrorCode]"
-                          dataType="i4"
-                          name="ErrorCode" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
-                          dataType="i4"
-                          name="ErrorColumn" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input].ExternalColumns[ErrorDescription]"
-                          dataType="wstr"
-                          length="50"
-                          name="ErrorDescription" />
-                      </externalMetadataColumns>
-                    </input>
-                  </inputs>
-                </component>
-                <component
-                  refId="Package\Foreach File in Folder\Extract Sample Currency Data\GetError Description"
-                  componentClassID="Microsoft.ManagedComponentHost"
-                  contactInfo="Incluye y ejecuta código de scripts personalizados. Por ejemplo, se usa para aplicar una regla de negocios que limita el intervalo de valores válidos de una columna de ingresos o para sumar los valores de dos columnas y calcular el promedio de la suma.;Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;13"
-                  description="Incluye y ejecuta código de scripts personalizados. Por ejemplo, se usa para aplicar una regla de negocios que limita el intervalo de valores válidos de una columna de ingresos o para sumar los valores de dos columnas y calcular el promedio de la suma."
-                  name="GetError Description"
-                  version="13">
-                  <properties>
-                    <property
-                      dataType="System.String"
-                      description="Almacena el código fuente del componente"
-                      isArray="true"
-                      name="SourceCode"
-                      state="cdata">
-                      <arrayElements
-                        arrayElementCount="30">
-                        <arrayElement
-                          dataType="System.String"><![CDATA[ComponentWrapper.cs]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
-*  Microsoft SQL Server Integration Services component wrapper
-*  This module defines the base class for your component
-*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
-
-using System;
-using System.Data;
-using Microsoft.SqlServer.Dts.Pipeline;
-using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
-using Microsoft.SqlServer.Dts.Runtime.Wrapper;
-
-public class UserComponent: ScriptComponent
-{
-    public Connections Connections;
-    public Variables Variables;
-    public UserComponent()
-    {
-        Connections = new Connections(this);
-        Variables = new Variables(this);
-    }
-
-    public override void ProcessInput(int InputID, string InputName, PipelineBuffer Buffer, OutputNameMap OutputMap)
-    {
-
-        if (InputName.Equals(@"Entrada 0", StringComparison.Ordinal))
-        {
-            Entrada0_ProcessInput(new Entrada0Buffer(Buffer, GetColumnIndexes(InputID), OutputMap));
-        }
-
-    }
-
-    public virtual void Entrada0_ProcessInput(Entrada0Buffer Buffer)
-    {
-        while (Buffer.NextRow())
-        {
-            Entrada0_ProcessInputRow(Buffer);
-        }
-    }
-
-    public virtual void Entrada0_ProcessInputRow(Entrada0Buffer Row)
-    {
-    }
-
-}
-
-public class Connections
-{
-    ScriptComponent ParentComponent;
-
-    public Connections(ScriptComponent Component)
-    {
-        ParentComponent = Component;
-    }
-
-}
-
-public class Variables
-{
-    ScriptComponent ParentComponent;
-
-    public Variables(ScriptComponent Component)
-    {
-        ParentComponent = Component;
-    }
-
-}
-]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[Properties\Resources.resx]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-</root>]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[main.cs]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[#region Help:  Introduction to the Script Component
-/* The Script Component allows you to perform virtually any operation that can be accomplished in
- * a .Net application within the context of an Integration Services data flow.
- *
- * Expand the other regions which have "Help" prefixes for examples of specific ways to use
- * Integration Services features within this script component. */
-#endregion
-
-#region Namespaces
-using System;
-using System.Data;
-using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
-using Microsoft.SqlServer.Dts.Runtime.Wrapper;
-#endregion
-
-/// <summary>
-/// This is the class to which to add your code.  Do not change the name, attributes, or parent
-/// of this class.
-/// </summary>
-[Microsoft.SqlServer.Dts.Pipeline.SSISScriptComponentEntryPointAttribute]
-public class ScriptMain : UserComponent
-{
-    #region Help:  Using Integration Services variables and parameters
-    /* To use a variable in this script, first ensure that the variable has been added to
-     * either the list contained in the ReadOnlyVariables property or the list contained in
-     * the ReadWriteVariables property of this script component, according to whether or not your
-     * code needs to write into the variable.  To do so, save this script, close this instance of
-     * Visual Studio, and update the ReadOnlyVariables and ReadWriteVariables properties in the
-     * Script Transformation Editor window.
-     * To use a parameter in this script, follow the same steps. Parameters are always read-only.
-     *
-     * Example of reading from a variable or parameter:
-     *  DateTime startTime = Variables.MyStartTime;
-     *
-     * Example of writing to a variable:
-     *  Variables.myStringVariable = "new value";
-     */
-    #endregion
-
-    #region Help:  Using Integration Services Connnection Managers
-    /* Some types of connection managers can be used in this script component.  See the help topic
-     * "Working with Connection Managers Programatically" for details.
-     *
-     * To use a connection manager in this script, first ensure that the connection manager has
-     * been added to either the list of connection managers on the Connection Managers page of the
-     * script component editor.  To add the connection manager, save this script, close this instance of
-     * Visual Studio, and add the Connection Manager to the list.
-     *
-     * If the component needs to hold a connection open while processing rows, override the
-     * AcquireConnections and ReleaseConnections methods.
-     * 
-     * Example of using an ADO.Net connection manager to acquire a SqlConnection:
-     *  object rawConnection = Connections.SalesDB.AcquireConnection(transaction);
-     *  SqlConnection salesDBConn = (SqlConnection)rawConnection;
-     *
-     * Example of using a File connection manager to acquire a file path:
-     *  object rawConnection = Connections.Prices_zip.AcquireConnection(transaction);
-     *  string filePath = (string)rawConnection;
-     *
-     * Example of releasing a connection manager:
-     *  Connections.SalesDB.ReleaseConnection(rawConnection);
-     */
-    #endregion
-
-    #region Help:  Firing Integration Services Events
-    /* This script component can fire events.
-     *
-     * Example of firing an error event:
-     *  ComponentMetaData.FireError(10, "Process Values", "Bad value", "", 0, out cancel);
-     *
-     * Example of firing an information event:
-     *  ComponentMetaData.FireInformation(10, "Process Values", "Processing has started", "", 0, fireAgain);
-     *
-     * Example of firing a warning event:
-     *  ComponentMetaData.FireWarning(10, "Process Values", "No rows were received", "", 0);
-     */
-    #endregion
-
-    /// <summary>
-    /// This method is called once, before rows begin to be processed in the data flow.
-    ///
-    /// You can remove this method if you don't need to do anything here.
-    /// </summary>
-    public override void PreExecute()
-    {
-        base.PreExecute();
-        /*
-         * Add your code here
-         */
-    }
-
-    /// <summary>
-    /// This method is called after all the rows have passed through this component.
-    ///
-    /// You can delete this method if you don't need to do anything here.
-    /// </summary>
-    public override void PostExecute()
-    {
-        base.PostExecute();
-        /*
-         * Add your code here
-         */
-    }
-
-    /// <summary>
-    /// This method is called once for every row that passes through the component from Entrada0.
-    ///
-    /// Example of reading a value from a column in the the row:
-    ///  string zipCode = Row.ZipCode
-    ///
-    /// Example of writing a value to a column in the row:
-    ///  Row.ZipCode = zipCode
-    /// </summary>
-    /// <param name="Row">The row that is currently passing through the component</param>
-    public override void Entrada0_ProcessInputRow(Entrada0Buffer Row)
-    {
-        Row.ErrorDescription = this.ComponentMetaData.GetErrorDescription(Row.ErrorCode);
-    }
-
-}
-]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[BufferWrapper.cs]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
-*  Microsoft SQL Server Integration Services buffer wrappers
-*  This module defines classes for accessing data flow buffers
-*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
-
-
-
-using System;
-using System.Data;
-using Microsoft.SqlServer.Dts.Pipeline;
-using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
-
-public class Entrada0Buffer: ScriptBuffer
-
-{
-    public Entrada0Buffer(PipelineBuffer Buffer, int[] BufferColumnIndexes, OutputNameMap OutputMap)
-        : base(Buffer, BufferColumnIndexes, OutputMap)
-    {
-    }
-
-    public Int32 ErrorCode
-    {
-        get
-        {
-            return Buffer.GetInt32(BufferColumnIndexes[0]);
-        }
-    }
-    public bool ErrorCode_IsNull
-    {
-        get
-        {
-            return IsNull(0);
-        }
-    }
-
-    public String ErrorDescription
-    {
-        set
-        {
-            this[1] = value;
-        }
-    }
-    public bool ErrorDescription_IsNull
-    {
-        set
-        {
-            if (value)
-            {
-                SetNull(1);
-            }
-            else
-            {
-                throw new InvalidOperationException("La propiedad IsNull no puede establecerse en False. En su lugar, asigne un valor a la columna.");
-            }
-        }
-    }
-
-    new public bool NextRow()
-    {
-        return base.NextRow();
-    }
-
-    new public bool EndOfRowset()
-    {
-        return base.EndOfRowset();
-    }
-
-}
-]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[Properties\Settings.Designer.cs]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_2d91778a9b7943ffac0ba95ed24aef93.Properties.Settings.get_Default():SC_2d91778a9b7943ffac0ba95ed24aef93.Properties.Sett" +
-    "ings")]
-
-namespace SC_2d91778a9b7943ffac0ba95ed24aef93.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}
-]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[SC_2d91778a9b7943ffac0ba95ed24aef93.csproj]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{760574ac-8a6e-4342-a940-4f6a9bac38f4}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SC_2d91778a9b7943ffac0ba95ed24aef93</RootNamespace>
-    <AssemblyName>SC_2d91778a9b7943ffac0ba95ed24aef93</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.TxScript, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.DTSRuntimeWrap, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.DTSPipelineWrap, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.PipelineHost, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Compile Include="main.cs" />
-    <Compile Include="BufferWrapper.cs" />
-    <Compile Include="ComponentWrapper.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <!-- Include the build rules for a C# project.-->
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <!-- This section defines VSTA properties that describe the host-changable project properties. -->
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="ScriptComponent" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" DebugInfoExeName="" DebugInfoCommandLine="" DebugInfoWorkingDir="" IconImageList="" />
-        <Host Name="ScriptComponent" GeneratedNamespace="SC_2d91778a9b7943ffac0ba95ed24aef93" IconIndex="0"></Host>
-        <ProjectClient>
-          <HostIdentifier>SSIS_SC160</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
-</Project>]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[Project]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[UTF16LE]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
-<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="3.0" schemaVersion="1.0">
-  <msb:PropertyGroup>
-    <msb:Language>msBuild</msb:Language>
-    <msb:CodeName>SC_2d91778a9b7943ffac0ba95ed24aef93</msb:CodeName>
-    <msb:DisplayName>SC_2d91778a9b7943ffac0ba95ed24aef93</msb:DisplayName>
-    <msb:ProjectId>{F45E73C4-3072-4B2E-B531-1E57EC2993F9}</msb:ProjectId>
-  </msb:PropertyGroup>
-  <msb:ItemGroup>
-    <msb:Project Include="SC_2d91778a9b7943ffac0ba95ed24aef93.csproj" />
-    <msb:File Include="Properties\Resources.resx" />
-    <msb:File Include="Properties\Settings.settings" />
-    <msb:File Include="Properties\AssemblyInfo.cs" />
-    <msb:File Include="Properties\Resources.Designer.cs" />
-    <msb:File Include="main.cs" />
-    <msb:File Include="BufferWrapper.cs" />
-    <msb:File Include="Properties\Settings.Designer.cs" />
-    <msb:File Include="ComponentWrapper.cs" />
-  </msb:ItemGroup>
-</c:Project>]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[Properties\AssemblyInfo.cs]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("SC_2d91778a9b7943ffac0ba95ed24aef93")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SC_2d91778a9b7943ffac0ba95ed24aef93")]
-[assembly: AssemblyCopyright("Copyright @  2023")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.0.0")]
-]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[Properties\Settings.settings]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[Properties\Resources.Designer.cs]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_2d91778a9b7943ffac0ba95ed24aef93.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
-    "rceManager")]
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_2d91778a9b7943ffac0ba95ed24aef93.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
-    "fo")]
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_2d91778a9b7943ffac0ba95ed24aef93.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
-    "):Void")]
-
-namespace SC_2d91778a9b7943ffac0ba95ed24aef93.Properties {
-    
-    
-    /// <summary>
-    ///   A strongly-typed resource class, for looking up localized strings, etc.
-    /// </summary>
-    // This class was auto-generated by the StronglyTypedResourceBuilder
-    // class via a tool like ResGen or Visual Studio.
-    // To add or remove a member, edit your .ResX file then rerun ResGen
-    // with the /str option, or rebuild your VS project.
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class Resources {
-        
-        private static global::System.Resources.ResourceManager resourceMan;
-        
-        private static global::System.Globalization.CultureInfo resourceCulture;
-        
-        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
-        }
-        
-        /// <summary>
-        ///   Returns the cached ResourceManager instance used by this class.
-        /// </summary>
-        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
-            get {
-                if ((resourceMan == null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SC_2d91778a9b7943ffac0ba95ed24aef93.Properties.Resources", typeof(Resources).Assembly);
-                    resourceMan = temp;
-                }
-                return resourceMan;
-            }
-        }
-        
-        /// <summary>
-        ///   Overrides the current thread's CurrentUICulture property for all
-        ///   resource lookups using this strongly typed resource class.
-        /// </summary>
-        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
-            get {
-                return resourceCulture;
-            }
-            set {
-                resourceCulture = value;
-            }
-        }
-    }
-}
-]]></arrayElement>
-                      </arrayElements>
-                    </property>
-                    <property
-                      dataType="System.String"
-                      description="Almacena la representación binaria del componente"
-                      isArray="true"
-                      name="BinaryCode"
-                      state="cdata">
-                      <arrayElements
-                        arrayElementCount="2">
-                        <arrayElement
-                          dataType="System.String"><![CDATA[SC_2d91778a9b7943ffac0ba95ed24aef93.dll]]></arrayElement>
-                        <arrayElement
-                          dataType="System.String"><![CDATA[TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDALgTEmUAAAAAAAAAAOAAIiALATAAABQAAAAIAAAAAAAApjIA
-AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
-ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAFQyAABPAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
-AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAArBIAAAAgAAAAFAAAAAIA
-AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAEgEAAAAQAAAAAYAAAAWAAAAAAAAAAAAAAAAAABAAABA
-LnJlbG9jAAAMAAAAAGAAAAACAAAAHAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAACI
-MgAAAAAAAEgAAAACAAUAtCEAAOgPAAABAAAAAAAAAJwxAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4CKBAAAAoqHgIoEQAACipiAwIoEgAACgNvBgAABm8TAAAK
-bwgAAAYqHgIoDAAABioqAgMEBSgUAAAKKlICexUAAAoCexYAAAoWlG8XAAAKKiICFigYAAAKKiYC
-FwMoGQAACipaAywIAhcoGgAACipyAQAAcHMbAAAKeh4CKBwAAAoqHgIoHQAACip+AigeAAAKAgJz
-EAAABn0BAAAEAgJzEQAABn0CAAAEKpIEcsAAAHAabx8AAAosFQIFAgMoIAAACg4EcwUAAAZvDgAA
-BipKKwcCA28PAAAGA28KAAAGLfEqBio6AighAAAKAgN9AwAABCo6AighAAAKAgN9BAAABCoeAigh
-AAAKKq5+BQAABC0ectQAAHDQBwAAAigiAAAKbyMAAApzJAAACoAFAAAEfgUAAAQqGn4GAAAEKh4C
-gAYAAAQqGn4HAAAEKh4CKCUAAAoqLnMXAAAGgAcAAAQqAAAAQlNKQgEAAQAAAAAADAAAAHY0LjAu
-MzAzMTkAAAAABQBsAAAAjAUAACN+AAD4BQAA5AYAACNTdHJpbmdzAAAAANwMAABIAQAAI1VTACQO
-AAAQAAAAI0dVSUQAAAA0DgAAtAEAACNCbG9iAAAAAAAAAAIAAAFXFaABCQEAAAD6ATMAFgAAAQAA
-ACAAAAAIAAAABwAAABgAAAAPAAAAJQAAABAAAAADAAAABwAAAAgAAAABAAAABQAAAAEAAAAAADAD
-AQAAAAAABgAqAhgFBgC+AhgFBgB2AQUFDwCMBQAABgCjAeIDBgANAuIDBgDuAeIDBgClAuIDBgBK
-AuIDBgBjAuIDBgC6AeIDBgDVAfkCCgB+AsMACgCuBMMADgCfBMMACgBUBMMACgBSBsMABgAVBpoD
-BgBZAQUFBgC/BDgFBgBIBM0DEgApARoDEgCKARoDEgARAbgDBgA+ARgFFgABAM8EBgD0A5oDBgAT
-A5oDBgA3BJoDBgDkAJoDBgCVAJoDBgDbBuIDAAAAAEcAAAAAAAEAAQABABAArQMAABAAAQABAAEA
-EACQBAAAOQABAAUAAQAQADQGAABFAAEADAABABAACQYAAEkAAwAQAAEAEADKBQAASQAEABEAAAAQ
-AD8FmwVJAAUAEgAAARAA+QWbBWEABwAWAAYACQZ/AAYAygWDAAEAQgaHAAEAQgaHABEAoQOLABEA
-AQGPABEAdwCTAFAgAAAAAMYA3AIGAAEAWCAAAAAAxgDnAgYAAQBgIAAAAADGALYGlwABAHkgAAAA
-AIYY+AQGAAIAgSAAAAAAhhj4BCUAAgCMIAAAAACGCIcAnQAFAKEgAAAAAIYIWANHAAUAqiAAAAAA
-hggOBBAABQC0IAAAAACGCG0DoQAGAMsgAAAAAIYAzwZHAAcA0yAAAAAAhgAcBkcABwDbIAAAAACG
-GPgEBgAHAPsgAAAAAMYAqQamAAcAICEAAAAAxgGgBpcACwAzIQAAAADGAbYGlwAMADUhAAAAAIYY
-+ASwAA0ARCEAAAAAhhj4BLAADgBTIQAAAACDGPgEBgAPAFshAAAAAJMIuwS2AA8AhyEAAAAAkwjp
-ALsADwCOIQAAAACTCPUAwAAPAJYhAAAAAJYIKAbGABAAnSEAAAAAhhj4BAYAEAClIQAAAACRGP4E
-ywAQAAAAAQDTBgAAAQC0BAAAAgDUBQAAAwBiBAAAAQDzAgAAAQDzAgAAAQBQAAAAAgC5AAAAAwC0
-BAAABABiBAAAAQC0BAAAAQDTBgAAAQBYBgAAAQBYBgAAAQDzAgkA+AQBABEA+AQGABkA+AQKACkA
-+AQQADEA+AQQADkA+AQQAEEA+AQQAEkA+AQQAFEA+AQQAFkA+AQQAGEA+AQQAGkA+AQGAJkA+AQG
-ALkA+AQVAMkA+AQGAIkA3AIGAIkA5wIGAIkAWAAbANEAIwQgAHEA+AQlAHEAtAQvAHEA1AUzAHkA
-GgA3AHEAggM8AHEAkQNBAHEAiQMBANkA+AQQAHEAzwZHAHEAHAZHAIkA+AQGAOEAAgZLAIkA6AVS
-AJEA+AQGAPEApwBYAPEA1wZfAKEA+ARlAMEA+AQGAC4ACwDqAC4AEwDzAC4AGwASAS4AIwAbAS4A
-KwBEAS4AMwBEAS4AOwBEAS4AQwAbAS4ASwBKAS4AUwBEAS4AWwBhAUMAYwCvAakAcwASAckAcwAS
-AeEAewCvAeMAawCvAQMAAQAHAAUACAAHAAAAiwDPAAAAXAPTAAAAJgTXAAAAcQPTAAAAvwTbAAAA
-CQHgAAAALAblAAIABgADAAIABwAFAAEACAAHAAEACQAJAAIAEwALAAIAFAANAAEAFQANAAIAFgAP
-AASAAAABAAAAAAAAAAAAAAAAACMAAAAEAAAAAAAAAAAAAABtAG4AAAAAABAAAAAAAAAAAAAAAHYA
-YgYAAAAAEAAAAAAAAAAAAAAAdgB/BgAAAAAEAAAAAAAAAAAAAABtAJoDAAAAABAAAAAAAAAAAAAA
-AHYAbAQAAAAAAAAAAAEAAABJBQAAAAAAAABJRFRTQ29tcG9uZW50TWV0YURhdGExMDAAR2V0SW50
-MzIAU0NfMmQ5MTc3OGE5Yjc5NDNmZmFjMGJhOTVlZDI0YWVmOTMAPE1vZHVsZT4ASW5wdXRJRABn
-ZXRfQ29tcG9uZW50TWV0YURhdGEAbXNjb3JsaWIAZGVmYXVsdEluc3RhbmNlAGdldF9FcnJvckNv
-ZGUAUnVudGltZVR5cGVIYW5kbGUAR2V0VHlwZUZyb21IYW5kbGUASW5wdXROYW1lAE1pY3Jvc29m
-dC5TcWxTZXJ2ZXIuRHRzLlBpcGVsaW5lAFR5cGUAZ2V0X0N1bHR1cmUAc2V0X0N1bHR1cmUAcmVz
-b3VyY2VDdWx0dXJlAEFwcGxpY2F0aW9uU2V0dGluZ3NCYXNlAEVkaXRvckJyb3dzYWJsZVN0YXRl
-AENvbXBpbGVyR2VuZXJhdGVkQXR0cmlidXRlAERlYnVnZ2VyTm9uVXNlckNvZGVBdHRyaWJ1dGUA
-RGVidWdnYWJsZUF0dHJpYnV0ZQBFZGl0b3JCcm93c2FibGVBdHRyaWJ1dGUAQXNzZW1ibHlUaXRs
-ZUF0dHJpYnV0ZQBBc3NlbWJseVRyYWRlbWFya0F0dHJpYnV0ZQBUYXJnZXRGcmFtZXdvcmtBdHRy
-aWJ1dGUAQXNzZW1ibHlDb25maWd1cmF0aW9uQXR0cmlidXRlAEFzc2VtYmx5RGVzY3JpcHRpb25B
-dHRyaWJ1dGUAQ29tcGlsYXRpb25SZWxheGF0aW9uc0F0dHJpYnV0ZQBBc3NlbWJseVByb2R1Y3RB
-dHRyaWJ1dGUAQXNzZW1ibHlDb3B5cmlnaHRBdHRyaWJ1dGUAU1NJU1NjcmlwdENvbXBvbmVudEVu
-dHJ5UG9pbnRBdHRyaWJ1dGUAQXNzZW1ibHlDb21wYW55QXR0cmlidXRlAFJ1bnRpbWVDb21wYXRp
-YmlsaXR5QXR0cmlidXRlAFByZUV4ZWN1dGUAUG9zdEV4ZWN1dGUAdmFsdWUAU3lzdGVtLlJ1bnRp
-bWUuVmVyc2lvbmluZwBTdHJpbmcAU3lzdGVtLkNvbXBvbmVudE1vZGVsAFNDXzJkOTE3NzhhOWI3
-OTQzZmZhYzBiYTk1ZWQyNGFlZjkzLmRsbABnZXRfRXJyb3JDb2RlX0lzTnVsbABzZXRfRXJyb3JE
-ZXNjcmlwdGlvbl9Jc051bGwAU2V0TnVsbABzZXRfSXRlbQBTeXN0ZW0AcmVzb3VyY2VNYW4AU2Ny
-aXB0TWFpbgBTeXN0ZW0uQ29uZmlndXJhdGlvbgBTeXN0ZW0uR2xvYmFsaXphdGlvbgBTeXN0ZW0u
-UmVmbGVjdGlvbgBJbnZhbGlkT3BlcmF0aW9uRXhjZXB0aW9uAHNldF9FcnJvckRlc2NyaXB0aW9u
-AEdldEVycm9yRGVzY3JpcHRpb24AU3RyaW5nQ29tcGFyaXNvbgBDdWx0dXJlSW5mbwBPdXRwdXRO
-YW1lTWFwAE91dHB1dE1hcABNaWNyb3NvZnQuU3FsU2VydmVyLkRUU1BpcGVsaW5lV3JhcABFbnRy
-YWRhMEJ1ZmZlcgBQaXBlbGluZUJ1ZmZlcgBTY3JpcHRCdWZmZXIAZ2V0X1Jlc291cmNlTWFuYWdl
-cgBNaWNyb3NvZnQuU3FsU2VydmVyLkR0cy5QaXBlbGluZS5XcmFwcGVyAC5jdG9yAC5jY3RvcgBT
-eXN0ZW0uRGlhZ25vc3RpY3MAU3lzdGVtLlJ1bnRpbWUuQ29tcGlsZXJTZXJ2aWNlcwBTeXN0ZW0u
-UmVzb3VyY2VzAFNDXzJkOTE3NzhhOWI3OTQzZmZhYzBiYTk1ZWQyNGFlZjkzLlByb3BlcnRpZXMu
-UmVzb3VyY2VzLnJlc291cmNlcwBEZWJ1Z2dpbmdNb2RlcwBTQ18yZDkxNzc4YTliNzk0M2ZmYWMw
-YmE5NWVkMjRhZWY5My5Qcm9wZXJ0aWVzAFZhcmlhYmxlcwBCdWZmZXJDb2x1bW5JbmRleGVzAEdl
-dENvbHVtbkluZGV4ZXMAU2V0dGluZ3MARXF1YWxzAENvbm5lY3Rpb25zAE9iamVjdABFbmRPZlJv
-d3NldABnZXRfRGVmYXVsdABVc2VyQ29tcG9uZW50AFBhcmVudENvbXBvbmVudABTY3JpcHRDb21w
-b25lbnQATWljcm9zb2Z0LlNxbFNlcnZlci5UeFNjcmlwdABNaWNyb3NvZnQuU3FsU2VydmVyLlBp
-cGVsaW5lSG9zdABFbnRyYWRhMF9Qcm9jZXNzSW5wdXQARW50cmFkYTBfUHJvY2Vzc0lucHV0Um93
-AE5leHRSb3cAZ2V0X0Fzc2VtYmx5AACAvUwAYQAgAHAAcgBvAHAAaQBlAGQAYQBkACAASQBzAE4A
-dQBsAGwAIABuAG8AIABwAHUAZQBkAGUAIABlAHMAdABhAGIAbABlAGMAZQByAHMAZQAgAGUAbgAg
-AEYAYQBsAHMAZQAuACAARQBuACAAcwB1ACAAbAB1AGcAYQByACwAIABhAHMAaQBnAG4AZQAgAHUA
-bgAgAHYAYQBsAG8AcgAgAGEAIABsAGEAIABjAG8AbAB1AG0AbgBhAC4AABNFAG4AdAByAGEAZABh
-ACAAMAAAcVMAQwBfADIAZAA5ADEANwA3ADgAYQA5AGIANwA5ADQAMwBmAGYAYQBjADAAYgBhADkA
-NQBlAGQAMgA0AGEAZQBmADkAMwAuAFAAcgBvAHAAZQByAHQAaQBlAHMALgBSAGUAcwBvAHUAcgBj
-AGUAcwAAAACMKphAwewCR6T0IYhkRwyHAAQgAQEIAyAAAQUgAQEREQQgAQEOBSABARFZBCAAEmkE
-IAEOCAkgAwESPR0IEkEDBhI9AwYdCAQgAQgIBCABAggFIAIBCBwDIAACBiACAg4RdQUgAR0ICAYA
-ARJ5EX0FIAASgIEHIAIBDhKAgQi3elxWGTTgiQiJhF3NgIDMkQMGEhQDBhIYAwYSRQMGElEDBhJV
-AwYSIAUgAQESDAMgAAgEIAEBAgkgBAEIDhI9EkEFIAEBEkUEAAASUQQAABJVBQABARJVBAAAEiAD
-AAABAygACAMoAAIDKAAOBAgAElEECAASVQQIABIgCAEACAAAAAAAHgEAAQBUAhZXcmFwTm9uRXhj
-ZXB0aW9uVGhyb3dzAQgBAAIAAAAAACgBACNTQ18yZDkxNzc4YTliNzk0M2ZmYWMwYmE5NWVkMjRh
-ZWY5MwAABQEAAAAAFgEAEUNvcHlyaWdodCBAICAyMDIzAABNAQAcLk5FVEZyYW1ld29yayxWZXJz
-aW9uPXY0LjcuMgEAVA4URnJhbWV3b3JrRGlzcGxheU5hbWUULk5FVCBGcmFtZXdvcmsgNC43LjIE
-AQAAALQAAADOyu++AQAAAJEAAABsU3lzdGVtLlJlc291cmNlcy5SZXNvdXJjZVJlYWRlciwgbXNj
-b3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1i
-NzdhNWM1NjE5MzRlMDg5I1N5c3RlbS5SZXNvdXJjZXMuUnVudGltZVJlc291cmNlU2V0AgAAAAAA
-AAAAAAAAUEFEUEFEULQAAAB8MgAAAAAAAAAAAACWMgAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-iDIAAAAAAAAAAAAAAABfQ29yRGxsTWFpbgBtc2NvcmVlLmRsbAAAAAAA/yUAIAAQAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAA
-SAAAAFhAAADsAwAAAAAAAAAAAADsAzQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAA
-AAAAvQTv/gAAAQAAAAEAAAAAAAAAAQAAAAAAPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQA
-AAABAFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBu
-AAAAAAAAALAETAMAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAKAMAAAEAMAAwADAA
-MAAwADQAYgAwAAAAGgABAAEAQwBvAG0AbQBlAG4AdABzAAAAAAAAACIAAQABAEMAbwBtAHAAYQBu
-AHkATgBhAG0AZQAAAAAAAAAAAHAAJAABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAA
-AABTAEMAXwAyAGQAOQAxADcANwA4AGEAOQBiADcAOQA0ADMAZgBmAGEAYwAwAGIAYQA5ADUAZQBk
-ADIANABhAGUAZgA5ADMAAAAwAAgAAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADEALgAwAC4A
-MAAuADAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAAAFMAQwBfADIAZAA5ADEANwA3
-ADgAYQA5AGIANwA5ADQAMwBmAGYAYQBjADAAYgBhADkANQBlAGQAMgA0AGEAZQBmADkAMwAuAGQA
-bABsAAAASAASAAEATABlAGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0AAAAQwBvAHAAeQByAGkAZwBo
-AHQAIABAACAAIAAyADAAMgAzAAAAKgABAAEATABlAGcAYQBsAFQAcgBhAGQAZQBtAGEAcgBrAHMA
-AAAAAAAAAAB4ACgAAQBPAHIAaQBnAGkAbgBhAGwARgBpAGwAZQBuAGEAbQBlAAAAUwBDAF8AMgBk
-ADkAMQA3ADcAOABhADkAYgA3ADkANAAzAGYAZgBhAGMAMABiAGEAOQA1AGUAZAAyADQAYQBlAGYA
-OQAzAC4AZABsAGwAAABoACQAAQBQAHIAbwBkAHUAYwB0AE4AYQBtAGUAAAAAAFMAQwBfADIAZAA5
-ADEANwA3ADgAYQA5AGIANwA5ADQAMwBmAGYAYQBjADAAYgBhADkANQBlAGQAMgA0AGEAZQBmADkA
-MwAAADQACAABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAAADEALgAwAC4AMAAuADAAAAA4
-AAgAAQBBAHMAcwBlAG0AYgBsAHkAIABWAGUAcgBzAGkAbwBuAAAAMQAuADAALgAwAC4AMAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAAqDIAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
-                      </arrayElements>
-                    </property>
-                    <property
-                      dataType="System.String"
-                      description="Especifica el nombre del proyecto de Microsoft Visual Studio Tools para Aplicaciones. Los nombres de proyecto deben ser únicos en el paquete."
-                      name="VSTAProjectName"
-                      typeConverter="NOTBROWSABLE">SC_2d91778a9b7943ffac0ba95ed24aef93</property>
-                    <property
-                      dataType="System.String"
-                      description="Especifica el lenguaje de programación que utiliza el script."
-                      name="ScriptLanguage"
-                      typeConverter="Microsoft.SqlServer.VSTAHosting.ScriptingLanguages">CSharp</property>
-                    <property
-                      dataType="System.String"
-                      description="Especifica una lista separada por comas de variables de solo lectura."
-                      name="ReadOnlyVariables"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIVariablePickerDlg"></property>
-                    <property
-                      dataType="System.String"
-                      description="Especifica una lista separada por comas de variables de lectura/escritura."
-                      name="ReadWriteVariables"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIWriteableVariablePickerDlg"></property>
-                    <property
-                      dataType="System.String"
-                      description="Lista de puntos de interrupción presentes en el script."
-                      isArray="true"
-                      name="BreakpointCollection"
-                      typeConverter="NOTBROWSABLE">
-                      <arrayElements
-                        arrayElementCount="0" />
-                    </property>
-                    <property
-                      dataType="System.String"
-                      description="Suma de comprobación para comparar los metadatos del componente con los códigos compilados."
-                      name="MetadataChecksum140"
-                      typeConverter="NOTBROWSABLE">72</property>
-                    <property
-                      dataType="System.String"
-                      name="UserComponentTypeName">Microsoft.ScriptComponentHost</property>
-                  </properties>
-                  <inputs>
-                    <input
-                      refId="Package\Foreach File in Folder\Extract Sample Currency Data\GetError Description.Inputs[Entrada 0]"
-                      hasSideEffects="true"
-                      name="Entrada 0">
-                      <inputColumns>
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\Extract Sample Currency Data\GetError Description.Inputs[Entrada 0].Columns[ErrorCode]"
-                          cachedDataType="i4"
-                          cachedName="ErrorCode"
-                          lineageId="Package\Foreach File in Folder\Extract Sample Currency Data\Lookup Currency Key.Outputs[Lookup Error Output].Columns[ErrorCode]" />
-                      </inputColumns>
-                      <externalMetadataColumns />
-                    </input>
-                  </inputs>
-                  <outputs>
-                    <output
-                      refId="Package\Foreach File in Folder\Extract Sample Currency Data\GetError Description.Outputs[Salida 0]"
-                      name="Salida 0"
-                      synchronousInputId="Package\Foreach File in Folder\Extract Sample Currency Data\GetError Description.Inputs[Entrada 0]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\Foreach File in Folder\Extract Sample Currency Data\GetError Description.Outputs[Salida 0].Columns[ErrorDescription]"
-                          dataType="wstr"
-                          length="50"
-                          lineageId="Package\Foreach File in Folder\Extract Sample Currency Data\GetError Description.Outputs[Salida 0].Columns[ErrorDescription]"
-                          name="ErrorDescription" />
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
-                <component
                   refId="Package\Foreach File in Folder\Extract Sample Currency Data\Lookup Currency Key"
                   componentClassID="Microsoft.Lookup"
                   contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
@@ -1575,7 +561,7 @@ where [refTable].[CurrencyAlternateKey] = ?</property>
                     <output
                       refId="Package\Foreach File in Folder\Extract Sample Currency Data\Lookup Currency Key.Outputs[Lookup Match Output]"
                       errorOrTruncationOperation="Lookup"
-                      errorRowDisposition="RedirectRow"
+                      errorRowDisposition="IgnoreFailure"
                       exclusionGroup="1"
                       name="Lookup Match Output"
                       synchronousInputId="Package\Foreach File in Folder\Extract Sample Currency Data\Lookup Currency Key.Inputs[Lookup Input]">
@@ -1960,11 +946,6 @@ where [refTable].[FullDateAlternateKey] = ?</property>
                   name="Flat File Source Output"
                   startId="Package\Foreach File in Folder\Extract Sample Currency Data\Extract Sample Currency Data.Outputs[Flat File Source Output]" />
                 <path
-                  refId="Package\Foreach File in Folder\Extract Sample Currency Data.Paths[Lookup Error Output]"
-                  endId="Package\Foreach File in Folder\Extract Sample Currency Data\GetError Description.Inputs[Entrada 0]"
-                  name="Lookup Error Output"
-                  startId="Package\Foreach File in Folder\Extract Sample Currency Data\Lookup Currency Key.Outputs[Lookup Error Output]" />
-                <path
                   refId="Package\Foreach File in Folder\Extract Sample Currency Data.Paths[Lookup Match Output]"
                   endId="Package\Foreach File in Folder\Extract Sample Currency Data\Lookup Date Key.Inputs[Lookup Input]"
                   name="Lookup Match Output"
@@ -1974,11 +955,6 @@ where [refTable].[FullDateAlternateKey] = ?</property>
                   endId="Package\Foreach File in Folder\Extract Sample Currency Data\OLE DB Destination.Inputs[OLE DB Destination Input]"
                   name="Lookup Match Output"
                   startId="Package\Foreach File in Folder\Extract Sample Currency Data\Lookup Date Key.Outputs[Lookup Match Output]" />
-                <path
-                  refId="Package\Foreach File in Folder\Extract Sample Currency Data.Paths[Salida 0]"
-                  endId="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows.Inputs[Flat File Destination Input]"
-                  name="Salida 0"
-                  startId="Package\Foreach File in Folder\Extract Sample Currency Data\GetError Description.Outputs[Salida 0]" />
               </paths>
             </pipeline>
           </DTS:ObjectData>
@@ -1987,8 +963,8 @@ where [refTable].[FullDateAlternateKey] = ?</property>
       <DTS:ForEachVariableMappings>
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{25A481D4-E309-4F61-91E2-EA5B6DC51A0C}"
-          DTS:ObjectName="{25A481D4-E309-4F61-91E2-EA5B6DC51A0C}"
+          DTS:DTSID="{624207BE-9F3F-4E55-82F2-194DDD438C42}"
+          DTS:ObjectName="{624207BE-9F3F-4E55-82F2-194DDD438C42}"
           DTS:ValueIndex="0"
           DTS:VariableName="User::varFileName" />
       </DTS:ForEachVariableMappings>
@@ -2026,17 +1002,9 @@ where [refTable].[FullDateAlternateKey] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="182.666666666667,42.6666666666667"
-          Id="Package\Foreach File in Folder\Extract Sample Currency Data\GetError Description"
-          TopLeft="437.499980442227,46.6500049281118" />
-        <NodeLayout
           Size="221.333333333334,42.6666666666667"
           Id="Package\Foreach File in Folder\Extract Sample Currency Data\Lookup Currency Key"
           TopLeft="178.249992031604,85.0541633580131" />
-        <NodeLayout
-          Size="172,42.6666666666667"
-          Id="Package\Foreach File in Folder\Extract Sample Currency Data\FailedRows"
-          TopLeft="450.624979855493,116.899999194145" />
         <NodeLayout
           Size="221.333333333334,42.6666666666667"
           Id="Package\Foreach File in Folder\Extract Sample Currency Data\OLE DB Destination"
@@ -2049,28 +1017,6 @@ where [refTable].[FullDateAlternateKey] = ?</property>
           Size="221.333333333334,42.6666666666667"
           Id="Package\Foreach File in Folder\Extract Sample Currency Data\Lookup Date Key"
           TopLeft="178.249992031604,218.762491809726" />
-        <EdgeLayout
-          Id="Package\Foreach File in Folder\Extract Sample Currency Data.Paths[Salida 0]"
-          TopLeft="532.729146815527,89.3166715947785">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,27.5833275993668"
-              Start="0,0"
-              End="0,20.0833275993668">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.0833275993668" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Foreach File in Folder\Extract Sample Currency Data.Paths[Lookup Match Output1]"
           TopLeft="288.916658698271,261.429158476393">
@@ -2116,42 +1062,6 @@ where [refTable].[FullDateAlternateKey] = ?</property>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="-48.19138671875,35.9661433925233,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Foreach File in Folder\Extract Sample Currency Data.Paths[Lookup Error Output]"
-          TopLeft="399.583325364937,106.387496691346">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="37.9166550772892,-38.4041584299013"
-              Start="0,0"
-              End="30.4166550772892,-38.4041584299013">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="14.9583275386446,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="14.9583275386446,0"
-                    Point2="18.9583275386446,0"
-                    Point3="18.9583275386446,-4" />
-                  <mssgle:LineSegment
-                    End="18.9583275386446,-34.4041584299013" />
-                  <mssgle:CubicBezierSegment
-                    Point1="18.9583275386446,-34.4041584299013"
-                    Point2="18.9583275386446,-38.4041584299013"
-                    Point3="22.9583275386446,-38.4041584299013" />
-                  <mssgle:LineSegment
-                    End="30.4166550772892,-38.4041584299013" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-26.9080591801054,1,91.7327734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -2218,19 +1128,6 @@ where [refTable].[FullDateAlternateKey] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Foreach File in Folder\Extract Sample Currency Data\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Foreach File in Folder\Extract Sample Currency Data\Lookup Date Key">
     <Properties>
       <Property>
@@ -2250,6 +1147,19 @@ where [refTable].[FullDateAlternateKey] = ?</property>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Foreach File in Folder\Extract Sample Currency Data\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

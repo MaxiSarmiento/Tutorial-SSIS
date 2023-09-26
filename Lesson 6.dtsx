@@ -1,25 +1,26 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="8/15/2023 11:03:33 AM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="NOTEBOOKMAXI"
   DTS:CreatorName="NOTEBOOKMAXI\DSMaxi"
-  DTS:DTSID="{2B50A447-FC2D-47CB-828C-EAFFB23D2D25}"
+  DTS:DTSID="{C5BC17CB-7420-4221-BEBE-7CB1481029B7}"
+  DTS:EnableConfig="True"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5228.0"
   DTS:LocaleID="11274"
-  DTS:ObjectName="Lesson 4"
+  DTS:ObjectName="Lesson 6"
   DTS:PackageType="5"
-  DTS:VersionBuild="25"
-  DTS:VersionGUID="{013D9DF2-4E0C-4449-8218-4C383E1DE2D3}">
+  DTS:VersionBuild="36"
+  DTS:VersionGUID="{2649B860-FE16-427C-ABC2-8B7FD4802E75}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Error Data]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{148D793D-C2F5-4455-83A0-93BB41556E57}"
+      DTS:DTSID="{35613B13-530E-48DF-93C7-5011E24C9D6B}"
       DTS:ObjectName="Error Data">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -37,7 +38,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="AverageRate"
-              DTS:DTSID="{8B52E69D-A55E-4040-A7BA-BFE42B9E639E}"
+              DTS:DTSID="{1957481D-0944-44FC-A603-12515AD79F1D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -46,7 +47,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyID"
-              DTS:DTSID="{03213287-193D-4B78-B67E-7C94133CFE4A}"
+              DTS:DTSID="{C3F51883-D928-4F4A-A0E6-E528DFE0105E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -54,7 +55,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyDate"
-              DTS:DTSID="{8123348D-ABCA-420D-8D8C-44B37BA32370}"
+              DTS:DTSID="{D022C9E7-8457-4D27-8FB3-3C744BFA4B6F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -62,7 +63,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="EndOfDayRate"
-              DTS:DTSID="{FC0CA097-3414-4333-9F46-A5B87B66C72D}"
+              DTS:DTSID="{2DC0CEC5-2E1A-4976-B256-FE375CFD1CE0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -70,7 +71,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{A65C0034-9A72-4C0B-8BBC-89F9861E9F8C}"
+              DTS:DTSID="{CDA27113-83A2-4416-B8D7-4DF936840E81}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -78,7 +79,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{653E7909-98E6-41DA-8ADF-7E7FE8E9F2AF}"
+              DTS:DTSID="{2E26CBC3-BE26-48BC-A9EE-42AD9BE78DBB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -87,7 +88,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorDescription"
-              DTS:DTSID="{C5450888-BE77-41C4-99E4-1C5CE70BD070}"
+              DTS:DTSID="{D349A80D-A698-4EA8-BBE0-3E860D974B2B}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -96,7 +97,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Lesson 3 Texto]"
       DTS:CreationName="FILE"
-      DTS:DTSID="{403EC6F6-326E-4026-ADD0-3B787D933764}"
+      DTS:DTSID="{49943939-5044-4701-9A70-9E9204F3170B}"
       DTS:ObjectName="Lesson 3 Texto">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -105,33 +106,45 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[localhost.AdventureWorks2014 1]"
+      DTS:refId="Package.ConnectionManagers[localhost.AdventureWorks2014]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{CD12C1E0-69F0-4BCB-80D6-E633970DCF38}"
-      DTS:ObjectName="localhost.AdventureWorks2014 1">
+      DTS:DTSID="{246226DD-8A60-4715-AE2A-8ABDA726F3AA}"
+      DTS:ObjectName="localhost.AdventureWorks2014">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorks2014;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Lesson 3-{CD12C1E0-69F0-4BCB-80D6-E633970DCF38}localhost.AdventureWorks2014 1;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorksDW2014;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-SSIS tutorial-{246226DD-8A60-4715-AE2A-8ABDA726F3AA}localhost.AdventureWorks2014;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[localhost.AdventureWorksDW2014]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{C50D71ED-5C02-4ADD-97D4-DE696EEC7C66}"
+      DTS:DTSID="{967DF5E3-15C8-4E0D-9435-A0DD6B6F7229}"
       DTS:ObjectName="localhost.AdventureWorksDW2014">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorksDW2014;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Lesson1-{C50D71ED-5C02-4ADD-97D4-DE696EEC7C66}localhost.AdventureWorksDW2014;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorksDW2014;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-SSIS tutorial-{967DF5E3-15C8-4E0D-9435-A0DD6B6F7229}localhost.AdventureWorksDW2014;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.AdventureWorksDW2014 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{AD225CFF-4FCD-4D06-9B4A-B36C9A9328EC}"
+      DTS:ObjectName="localhost.AdventureWorksDW2014 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorksDW2014;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Lesson1-{AD225CFF-4FCD-4D06-9B4A-B36C9A9328EC}localhost.AdventureWorksDW2014;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Sample Flat File Source Data]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{219BA2DF-90DD-4EAD-BDBE-FAE20E0320E3}"
+      DTS:DTSID="{6A774276-7379-403D-A498-A7E9FDB94C07}"
       DTS:ObjectName="Sample Flat File Source Data">
       <DTS:PropertyExpression
         DTS:Name="ConnectionString">@[User::varFileName]</DTS:PropertyExpression>
@@ -150,7 +163,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="AverageRate"
-              DTS:DTSID="{623AF3E4-BA5C-4E26-A052-8F183423FA71}"
+              DTS:DTSID="{20D686E1-2B9C-49B6-9668-F5A3C6A454F7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -159,7 +172,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyID"
-              DTS:DTSID="{1A8A7809-50AA-4A93-86EC-14CEE8A398B4}"
+              DTS:DTSID="{6A08B56A-7E3E-45EB-9E69-F34756276B08}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -167,7 +180,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyDate"
-              DTS:DTSID="{C0381598-8FF7-4554-A901-11B2852D22C9}"
+              DTS:DTSID="{EF4ADE9A-F729-4898-945B-152BB7E3D04A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -175,19 +188,27 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="EndOfDayRate"
-              DTS:DTSID="{4EB558EF-CB78-4899-8BDC-EAF9D0FE43F8}"
+              DTS:DTSID="{A6C361A9-774A-4F0B-A6CA-AE7095CD5726}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
+  <DTS:Configurations>
+    <DTS:Configuration
+      DTS:ConfigurationString="C:\Users\Maxim\source\repos\SSIS tutorial\SSISTutorial.dtsConfig"
+      DTS:ConfigurationType="1"
+      DTS:CreationName=""
+      DTS:DTSID="{B9D4DE80-F836-489A-9FC6-64E6509C2616}"
+      DTS:ObjectName="Configuración del directorio del Tutorial de SSIS" />
+  </DTS:Configurations>
   <DTS:LogProviders>
     <DTS:LogProvider
       DTS:ConfigString="Lesson 3 Texto"
       DTS:CreationName="Microsoft.LogProviderTextFile"
       DTS:Description="Writes log entries for events to a CSV file"
-      DTS:DTSID="{7654CFB6-B7DB-49C9-9D17-5E856ACDBF99}"
+      DTS:DTSID="{085545C2-1335-4AAC-98D6-1CCA3B7B13B9}"
       DTS:ObjectName="Lesson 3 Log File">
       <DTS:ObjectData>
         <InnerObject />
@@ -197,7 +218,7 @@
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{D0A1F818-9D90-49E5-B72D-6F728F4FBFBF}"
+      DTS:DTSID="{DFB72BA2-7248-4FBA-9419-3F44831D1111}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="ConnectionString">
@@ -206,7 +227,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{7C1DB45F-71F6-4806-8B88-8B91864386A8}"
+      DTS:DTSID="{B0721DCA-70CD-4D84-AE90-5AD7CCFFF7C3}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="varFileName">
@@ -216,13 +237,21 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{E5AFC119-831E-404B-9590-EB1A249AA135}"
+      DTS:DTSID="{2EA4457F-BDF2-416E-BAED-3D9860ED06BA}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="VarFolderName">
       <DTS:VariableValue
-        DTS:DataType="8"
-        xml:space="preserve"></DTS:VariableValue>
+        DTS:DataType="8">C:\Nuevos datos de ejemplo</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{ADB0272E-9BA0-4C41-8B25-8146DCB2E48F}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="Variable">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:LoggingOptions
@@ -230,7 +259,7 @@
     DTS:LoggingMode="1">
     <DTS:SelectedLogProviders>
       <DTS:SelectedLogProvider
-        DTS:InstanceID="{7654CFB6-B7DB-49C9-9D17-5E856ACDBF99}" />
+        DTS:InstanceID="{085545C2-1335-4AAC-98D6-1CCA3B7B13B9}" />
     </DTS:SelectedLogProviders>
   </DTS:LoggingOptions>
   <DTS:Executables>
@@ -238,24 +267,26 @@
       DTS:refId="Package\Foreach File in Folder"
       DTS:CreationName="STOCK:FOREACHLOOP"
       DTS:Description="coso"
-      DTS:DTSID="{4E943013-0400-414D-8793-586A9186CACE}"
+      DTS:DTSID="{F29D42C4-618C-470F-8B09-FE7A493A2604}"
       DTS:ExecutableType="STOCK:FOREACHLOOP"
       DTS:LocaleID="1033"
       DTS:ObjectName="Foreach File in Folder">
       <DTS:ForEachEnumerator
         DTS:CreationName="Microsoft.ForEachFileEnumerator"
-        DTS:DTSID="{6BF73EA1-8007-4CEC-8549-A8C0ACF881F6}"
-        DTS:ObjectName="{6BF73EA1-8007-4CEC-8549-A8C0ACF881F6}">
+        DTS:DTSID="{8E11B267-4560-4AA7-B2B7-95A0F45372A7}"
+        DTS:ObjectName="{8E11B267-4560-4AA7-B2B7-95A0F45372A7}">
+        <DTS:PropertyExpression
+          DTS:Name="Directory">@[User::VarFolderName]</DTS:PropertyExpression>
         <DTS:ObjectData>
           <ForEachFileEnumeratorProperties>
             <FEFEProperty
-              Folder="C:\SSIS TP\Creating a Simple ETL Package\Sample Data" />
+              Folder="C:\Nuevos datos de ejemplo" />
             <FEFEProperty
               FileSpec="Currency_*.txt" />
             <FEFEProperty
               FileNameRetrievalType="0" />
             <FEFEProperty
-              Recurse="0" />
+              Recurse="-1" />
           </ForEachFileEnumeratorProperties>
         </DTS:ObjectData>
       </DTS:ForEachEnumerator>
@@ -267,7 +298,7 @@
           DTS:refId="Package\Foreach File in Folder\Extract Sample Currency Data"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Data Flow Task"
-          DTS:DTSID="{1FEF661C-2BAE-4311-A525-5E6FF1623B11}"
+          DTS:DTSID="{CE7EC6A2-5A98-4FFA-A290-AADEF9FCA4EC}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="1033"
           DTS:ObjectName="Extract Sample Currency Data"
@@ -278,7 +309,7 @@
             DTS:LoggingMode="1">
             <DTS:SelectedLogProviders>
               <DTS:SelectedLogProvider
-                DTS:InstanceID="{7654CFB6-B7DB-49C9-9D17-5E856ACDBF99}" />
+                DTS:InstanceID="{085545C2-1335-4AAC-98D6-1CCA3B7B13B9}" />
             </DTS:SelectedLogProviders>
           </DTS:LoggingOptions>
           <DTS:ObjectData>
@@ -1540,8 +1571,8 @@ where [refTable].[CurrencyAlternateKey] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Foreach File in Folder\Extract Sample Currency Data\Lookup Currency Key.Connections[OleDbConnection]"
-                      connectionManagerID="Package.ConnectionManagers[localhost.AdventureWorksDW2014]"
-                      connectionManagerRefId="Package.ConnectionManagers[localhost.AdventureWorksDW2014]"
+                      connectionManagerID="Package.ConnectionManagers[localhost.AdventureWorksDW2014 1]"
+                      connectionManagerRefId="Package.ConnectionManagers[localhost.AdventureWorksDW2014 1]"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -1699,8 +1730,8 @@ where [refTable].[FullDateAlternateKey] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Foreach File in Folder\Extract Sample Currency Data\Lookup Date Key.Connections[OleDbConnection]"
-                      connectionManagerID="Package.ConnectionManagers[localhost.AdventureWorksDW2014]"
-                      connectionManagerRefId="Package.ConnectionManagers[localhost.AdventureWorksDW2014]"
+                      connectionManagerID="Package.ConnectionManagers[localhost.AdventureWorksDW2014 1]"
+                      connectionManagerRefId="Package.ConnectionManagers[localhost.AdventureWorksDW2014 1]"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -1846,8 +1877,8 @@ where [refTable].[FullDateAlternateKey] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Foreach File in Folder\Extract Sample Currency Data\OLE DB Destination.Connections[OleDbConnection]"
-                      connectionManagerID="Package.ConnectionManagers[localhost.AdventureWorksDW2014]"
-                      connectionManagerRefId="Package.ConnectionManagers[localhost.AdventureWorksDW2014]"
+                      connectionManagerID="Package.ConnectionManagers[localhost.AdventureWorksDW2014 1]"
+                      connectionManagerRefId="Package.ConnectionManagers[localhost.AdventureWorksDW2014 1]"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -1987,8 +2018,8 @@ where [refTable].[FullDateAlternateKey] = ?</property>
       <DTS:ForEachVariableMappings>
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{25A481D4-E309-4F61-91E2-EA5B6DC51A0C}"
-          DTS:ObjectName="{25A481D4-E309-4F61-91E2-EA5B6DC51A0C}"
+          DTS:DTSID="{362F3ECB-4610-4A15-A2F2-141E1641F8DC}"
+          DTS:ObjectName="{362F3ECB-4610-4A15-A2F2-141E1641F8DC}"
           DTS:ValueIndex="0"
           DTS:VariableName="User::varFileName" />
       </DTS:ForEachVariableMappings>
